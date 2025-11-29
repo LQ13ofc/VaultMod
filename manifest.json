@@ -1,15 +1,16 @@
 ﻿{
-  "Name": "VaultMod",
+  "Name": "Vault Mod",
   "Author": "LQ13ofc",
-  "Version": "1.0.0",
+  "Version": "1.0.1",
+  "Description": "Cofre central compartilhado com histórico, distribuição de renda e configurações completas.",
   "UniqueID": "LQ13ofc.VaultMod",
   "EntryDll": "VaultMod.dll",
-  "MinimumApiVersion": "3.9.0",
-  "UpdateKeys": [],
+  "MinimumApiVersion": "4.0.0",
+  "UpdateKeys": [ "Nexus:?????" ],
   "Dependencies": [
     {
       "UniqueID": "spacechase0.GenericModConfigMenu",
-      "IsRequired": false // ISSO TORNA O GMCM OPCIONAL
+      "IsRequired": false
     }
   ]
 }

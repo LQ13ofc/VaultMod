@@ -1,65 +1,87 @@
 ﻿################################
-# SMAPI MODDING (Stardew Valley)
+# SMAPI / Stardew Valley Modding
 ################################
 
-# Ignorar o diretório de saída do build (onde ficam os arquivos prontos)
+# Pastas de build (sempre ignorar)
 bin/
 obj/
-
-# Ignorar a pasta onde o SMAPI normalmente busca os arquivos para testes
-# Se você estiver testando o mod em uma pasta diferente, pode ser necessário ajustar
-TestBin/ 
 Debug/
 Release/
+TestBin/
 
-################################
-# VISUAL STUDIO / C# / .NET
-################################
+# DLLs geradas (nunca comite a DLL!)
+# Ignora todas as DLLs, exceto as que são arquivos de configuração da DLL
+*.dll
+!*.dll.config
 
-# Arquivos de solução e de usuário do Visual Studio
+# Arquivos de debug e perfil
+*.pdb
+*.cache
+*.log
+*.tmp
+
+# Arquivos de configuração do Visual Studio / Rider / VS Code
 *.suo
 *.user
-*.useros
-*.tlog
-
-# Arquivos de log e cache do Visual Studio e Roslyn
-*.cache
-*.obj
-*.pdb
-*.log
-*.rpt
-*.bak
-*.ncb
-*.scc
+*.userprefs
+*.userosscache
+*.sln.docstates
 *.vspscc
+*.vssscc
+*.vs/
+*.vscode/
+.idea/
 
-# Diretórios de pacotes NuGet
+# Pacotes NuGet e caches
 packages/
+.nuget/
+project.lock.json
+project.fragment.lock.json
+artifacts/
 
-# Arquivos de teste e cobertura de código
+# Ferramentas de build e deploy
+tools/
+publish/
+dist/
+
+# Arquivos temporários do Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+*.lnk
+
+# Arquivos de backup e temporários
+*~
+*.bak
+*.tmp
+*.swp
+*.swn
+*.swo
+
+# SMAPI: arquivos de log e crash (gerados no jogo)
+# Nota: Git não consegue ignorar pastas fora do repo, mas é bom documentar
+%AppData%/StardewValley/ErrorLogs/
+%AppData%/StardewValley/Logs/
+
+# Arquivos de teste e coverage (se usar testes)
 *.trx
 *.coverage
-*.vsp
-*.vsnc
+*.coveragexml
 
-# Diretório de restauração de pacotes (VS Code/Modern .NET)
-.vs/
-.vspscc
-.vssscc
+# Arquivos de deploy para Nexus / GitHub Releases
+*.zip
+*.7z
+*.rar
+*.tar.gz
 
-# Arquivos de depuração e metadados de compilação
-*.ipdb
-*.rsp
-*.module
+# Arquivos de thumbnail e preview (se você criar antes de subir)
+preview.png
+thumbnail.jpg
+*.psd
+*.xcf
 
-################################
-# WINDOWS / IDE
-################################
-
-# Arquivos de miniaturas do Windows
-Thumbs.db
-
-# Arquivos de sistema temporários
-ehthumbs.db
-desktop.ini
-$RECYCLE.BIN/
+# Arquivos do próprio jogo (nunca comite!)
+StardewValley.exe
+Stardew Valley/
+Content/
