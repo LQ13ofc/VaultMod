@@ -1,0 +1,15 @@
+﻿{
+  "Name": "VaultMod",
+  "Author": "LQ13ofc",
+  "Version": "1.0.0",
+  "UniqueID": "LQ13ofc.VaultMod",
+  "EntryDll": "VaultMod.dll",
+  "MinimumApiVersion": "3.9.0",
+  "UpdateKeys": [],
+  "Dependencies": [
+    {
+      "UniqueID": "spacechase0.GenericModConfigMenu",
+      "IsRequired": false // ISSO TORNA O GMCM OPCIONAL
+    }
+  ]
+}

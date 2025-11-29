@@ -1,0 +1,65 @@
+﻿################################
+# SMAPI MODDING (Stardew Valley)
+################################
+
+# Ignorar o diretório de saída do build (onde ficam os arquivos prontos)
+bin/
+obj/
+
+# Ignorar a pasta onde o SMAPI normalmente busca os arquivos para testes
+# Se você estiver testando o mod em uma pasta diferente, pode ser necessário ajustar
+TestBin/ 
+Debug/
+Release/
+
+################################
+# VISUAL STUDIO / C# / .NET
+################################
+
+# Arquivos de solução e de usuário do Visual Studio
+*.suo
+*.user
+*.useros
+*.tlog
+
+# Arquivos de log e cache do Visual Studio e Roslyn
+*.cache
+*.obj
+*.pdb
+*.log
+*.rpt
+*.bak
+*.ncb
+*.scc
+*.vspscc
+
+# Diretórios de pacotes NuGet
+packages/
+
+# Arquivos de teste e cobertura de código
+*.trx
+*.coverage
+*.vsp
+*.vsnc
+
+# Diretório de restauração de pacotes (VS Code/Modern .NET)
+.vs/
+.vspscc
+.vssscc
+
+# Arquivos de depuração e metadados de compilação
+*.ipdb
+*.rsp
+*.module
+
+################################
+# WINDOWS / IDE
+################################
+
+# Arquivos de miniaturas do Windows
+Thumbs.db
+
+# Arquivos de sistema temporários
+ehthumbs.db
+desktop.ini
+$RECYCLE.BIN/
