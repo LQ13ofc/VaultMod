@@ -76,4 +76,5 @@ If you want to compile this mod yourself:
 ## 🤝 Thanks
 
 * Thanks to **LQ13ofc** for the initial concept and code structure.
+* Thanks to **Vinicius** for some of the final concepts.
 * Thanks to **LQ13ofc** and the Stardew Modding community for guidance and best practices.
