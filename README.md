@@ -57,7 +57,7 @@ The mod is fully configurable through the [Generic Mod Config Menu](https://www.
 | :--- | :--- | :--- |
 | **Open Vault Hotkey** | `F5` | The key used to open the main menu. |
 | **Capture Shipping Bin Income** | `True` | If true, daily sales from the bin go to the Income Pool instead of your wallet. |
-| **Required Access Level** | `Todos` | Restricts powerful actions (like withdrawing gold) to `Host Only` or allows `All` players. |
+| **Required Access Level** | `All` | Restricts powerful actions (like withdrawing gold) to `Host Only` or allows `All` players. |
 | **History Limit** | `50` | The maximum number of transactions saved in the history log. |
 | **Show Notifications** | `True` | Toggles in-game HUD messages for transactions and income. |
 
